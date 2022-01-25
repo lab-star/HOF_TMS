@@ -2,7 +2,8 @@ baseURL: https://lab-star.github.io/HOF_TMS/
 theme: ["hugo-flex", "hugo-shortcode-gallery"]
 
 params:
-  color: teal           # Any color in CSS syntax
+  color: "#00699A"
+  colorbg: "#9fa6a6"          # Any color in CSS syntax
   width: 42rem          # Any length in CSS syntax
   footer: >-            # A hardcoded space is needed before each html element
     Copyright 2022 - Sports and Trauma Applied Research Lab
@@ -22,7 +23,7 @@ params:
 menu:
   nav:
   - name: Accueil
-    url: https://lab-star-github.io/HOF_TMS/
+    url: https://lab-star.github.io/HOF_TMS/
     weight: 1
   - name: LabChart
     url: labchart/
