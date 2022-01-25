@@ -1,0 +1,30 @@
+baseURL: https://lab-star.github.io/HOF_TMS/
+theme: ["hugo-flex", "hugo-shortcode-gallery"]
+
+params:
+  color: teal           # Any color in CSS syntax
+  width: 42rem          # Any length in CSS syntax
+  footer: >-            # A hardcoded space is needed before each html element
+    Copyright 2022 - Sports and Trauma Applied Research Lab
+  summaries: false      # Set to true to show summaries of posts on homepage
+  divider: \a0          # Set to false to remove divider below posts on homepage
+  schema: false         # Set to true to add Schema.org metadata
+  opengraph: false      # Set to true to add Open Graph metadata
+  twittercards: false   # Set to true to add Twitter Cards metadata
+  # css:                # Uncomment to add custom CSS from a list of files
+  #   - css/foo.css
+  #   - bar.css
+  # js:                 # Uncomment to add custom JS from a list of files
+  #   - js/foo.js
+  #   - bar.js
+
+
+menu:
+  nav:
+  - name: Accueil
+    url: https://lab-star-github.io/HOF_TMS/
+    weight: 1
+  - name: LabChart
+    url: labchart/
+    weight: 1
+
